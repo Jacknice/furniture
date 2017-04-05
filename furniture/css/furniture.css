@@ -1,0 +1,420 @@
+#search {
+  position: relative;
+  margin-left: 60%;
+  top: 30px;
+  width: 320px;
+}
+
+#search img {
+  padding: 5px;
+  padding-left: 8px;
+  vertical-align: middle;
+}
+
+.ls {
+  width: 227px;
+  height: 21px;
+  background: #f4f4f4;
+  border-radius: 10px;
+}
+
+#search input {
+  border: 0;
+  padding-top: 7px;
+  padding-bottom: 2px;
+  background: #f4f4f4;
+  height: 8px;
+  position: absolute;
+  top: 0px;
+}
+
+#search input:focus {
+  outline-color: transparent;
+}
+
+#search span {
+  position: absolute;
+  top: 0px;
+  left: 75%;
+  width: 65px;
+  text-align: center;
+  background: #944316;
+  color: #fff;
+  padding: 2px;
+  border-radius: 20px;
+}
+
+nav {
+  position: relative;
+}
+
+nav .img1 {
+  position: absolute;
+  left: 15%;
+}
+
+nav .img2 {
+  position: absolute;
+  bottom: 0;
+  left: 39%;
+}
+
+.logo {
+  height: 88px;
+  width: 290px;
+  background: #f4f4f4;
+  background-repeat: no-repeat;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  position: absolute;
+  left: 15.8%;
+  padding-top: 1.5%;
+  z-index: 5;
+}
+
+.logo img {
+  margin: 5% 10%;
+}
+
+nav ul {
+  position: absolute;
+  bottom: 0px;
+  left: 38%;
+  width: 600px;
+}
+
+nav ul li {
+  margin-left: 15px;
+  float: left;
+  font-size: 1.2em;
+  color: #fff;
+  width: 64px;
+  text-align: center;
+  padding: 2px;
+}
+
+.hover {
+  background: #823b14;
+  height: 22px;
+}
+
+footer {
+  background: #313131;
+  clear: both;
+}
+footer div{
+  margin: 0em 31%;
+  width: 38%;
+}
+footer ul {
+  display: block;
+  width: 100%;
+  padding-top: 9%;
+  height: 20px;
+  text-align: center;
+}
+footer p{
+  text-align: center;
+}
+footer ul li a {
+  float: left;
+  padding: 0 10px;
+
+  height: 18px;
+  border-left: 2px groove #666666;
+}
+
+footer ul li a.last:last-child {
+  border-right: 2px groove #666666;
+}
+
+footer p {
+  padding-top: 1em;
+  height: 15px;
+  text-align: center;
+}
+
+nav a {
+  color: #fff;
+}
+
+.bigphoto {
+  width: 988px;
+  height: 395px;
+}
+
+.bl {
+  width: 20%;
+  float: left;
+}
+
+.bl h1 {
+  color: #ffffff;
+  font-size: 1em;
+  text-align: center;
+  border-bottom: 1px solid #646464;
+  background-image: linear-gradient(to bottom, #424242, #353535);
+  height: 37px;
+  line-height: 37px;
+  box-shadow: 0 2px 5px 0 #1a1a1a;
+}
+.shop-body{
+  height: 647px;
+}
+.index-body{
+  height: 414px;
+}
+.set {
+  background: #424242;
+  position: relative;
+  height: 138px;
+}
+
+.set ul {
+  position: absolute;
+  top: 12%;
+  left: 5%;
+}
+
+.set ul li {
+  letter-spacing: .2em;
+  width: 6em;
+  text-align: center;
+  height: 20px;
+  line-height: 20px;
+  margin-bottom: .5em;
+  font-size: 1em;
+  background: #353435;
+  padding: 0 25px;
+  background-image: url("../imgs/room1.png");
+}
+
+.set ul li a {
+  color: #a4a4a4;
+}
+
+.touch {
+  text-align: center;
+  background: #424242;
+  height: 200px;
+}
+
+.touch p select {
+  color: #424242;
+}
+
+.touch p {
+  padding: 5em 1em;
+}
+
+.touch p a {
+  color: #ffffff;
+}
+
+.shop-touch {
+  height: 433px;
+}
+.product-touch{
+  height: 300px;
+}
+.show-info{
+
+  margin-top: 1em;
+  padding: 2em 3em 4em 3em;
+}
+.show-info ul li {
+  float: left;
+  margin-left: 1em;
+}
+.shop-select select {
+  margin: 4em 3em 1em;
+}
+.group{
+  width: 170px;
+  float: left;
+  margin-left: 1.5em;
+}
+.product-show{
+  padding: 1.5em 1em;
+  height: 347px;
+}
+.group p{
+  text-align: center;
+  margin-bottom: .5px;
+}
+.shop-search {
+  margin: 0 3.3em;
+  position: relative;
+}
+.shop-search input{
+  padding-right: 1.5em;
+  height: 14px;
+}
+.shop-search span {
+  vertical-align: middle;
+  display: inline-block;
+  width: 24px;
+  height: 20px;
+  background: url('../imgs/search1.png');
+  position: absolute;
+  right:12px;
+  cursor: pointer;
+}
+
+.welcome {
+  background-image: linear-gradient(to bottom, #5a290e 0, #813b14 50%, #803912 100%);
+  width: 100%;
+  height: 35px;
+  position: relative;
+  border-shadow: 1px 2px 3px 4px #813b14;
+}
+
+.welcome p {
+  color: #ffffff;
+  position: absolute;
+  bottom: -10px;
+  left: 13.5%;
+}
+
+.br {
+  margin-left: 191px;
+
+}
+
+.bar {
+  width: 100%;
+  height: 47px;
+  background: url("../imgs/rec.png") no-repeat;
+  background-size: 100%;
+  padding: 0 2px;
+}
+
+.bar-main img {
+  vertical-align: middle;
+}
+
+td {
+  padding: 1em;
+}
+
+.bar-imgs li {
+  float: left;
+  padding: 1.2em .3em;
+  text-align: center;
+}
+
+.span {
+  width: .5em;
+  height: 115px;
+  background: #cbcbcb;
+  float: left;
+  margin: 1.2em .5em;
+  padding: 5px 3.5px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  cursor: pointer;
+}
+
+.span div {
+  width: 0;
+  padding: 0;
+  border: 5px solid transparent;
+  border-left-color: #000000;
+  margin: 50px 0;
+}
+
+.span:nth-last-child(1) {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  float: right;
+  margin-right: 17px;
+}
+
+.company, .company p {
+  color: #ffffff;
+  position: relative;
+}
+
+.p1 {
+  position: absolute;
+  top: .8em;
+  left: 2em;
+}
+
+.p2 {
+  float: right;
+  position: absolute;
+  top: -1.6em;
+  padding-right: 5px;
+}
+
+.company span {
+  position: absolute;
+  top: 10px;
+  left: 45em;
+}
+
+tbody tr td:nth-last-child(2) {
+  position: relative;
+}
+
+tbody tr td p {
+  width: 3px;
+  height: 199px;
+  position: absolute;
+  top: -46px;
+  right: 32px;
+  background-image: linear-gradient(to left, #444 0, #fff 50%, #444 100%);
+}
+
+#slider_box {
+  width: 670px;
+  margin-left: 10px;
+  float:left;
+}
+#slider {
+  width: 990px;
+  height:395px;
+  position:relative;
+  overflow:hidden;
+}
+#slider #imgs {
+  position:absolute;
+  top: 0;  left: 0;
+  height:240px;
+  margin-left:0;
+}
+#slider #imgs li{
+  float:left;
+  z-index:0;
+}
+#slider #indexs {
+  position:absolute;
+  bottom:15px;
+  right:30px;
+}
+#slider #indexs li {
+  width: 22px;
+  height: 22px;
+  line-height: 22px;
+  display: inline-block;
+  background: #3e3e3e;
+  color: #fff;
+  border-radius: 50%;
+  text-align: center;
+  cursor: pointer;
+  margin-left:10px;
+}
+#slider #indexs li:hover,#slider #indexs li.hover {
+  background:#944316;
+}
+.bar-imgs{
+  margin-left: 0;
+  transition:left 2s linear 0s;
+}
+#back{
+  display: inline-block;
+  margin-left: 10px;
+}

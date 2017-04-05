@@ -1,0 +1,180 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dd, dl, dt, li, ol, ul, fieldset, form, label, legend {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-family: inherit;
+    font-size: 100%;
+    text-align: left;
+    vertical-align: baseline;
+}
+
+img {
+    border: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+q:before, q:after, blockquote:before, blockquote:after {
+    content: "";
+}
+
+/* 基础样式----------------------------------------*/
+body {
+    text-align: center;
+    background: #cbcbcb;
+    background: url(../images/bg.jpg);
+}
+
+body, p, td, th, li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 1.5em;
+    color: #666666;
+}
+
+p {
+    margin: 0 0 1em 0;
+}
+
+/*--- 链接样式 ---*/
+a {
+    text-decoration: none;
+    color: #666666;
+}
+
+a:hover, a:active {
+    text-decoration: none;
+}
+
+a h2 {
+    cursor: pointer;
+}
+
+h1 {
+
+    font-size: 2.125em;
+}
+
+h2 {
+    margin: .825em 0 .5em 0;
+    font-size: 1.75em;
+}
+
+h3 {
+    margin: .825em 0 .5em 0;
+    font-size: 1.5em;
+}
+
+h4 {
+    margin: .825em 0 .5em 0;
+    font-size: 1.25em;
+}
+
+h5 {
+    margin: .825em 0 .5em 0;
+    font-size: 1.125em;
+}
+
+h6 {
+    margin: .825em 0 .5em 0;
+    font-size: 1em;
+}
+
+ul {
+    margin-left: 25px;
+    list-style-type: none;
+}
+
+ol {
+    margin-left: 25px;
+}
+
+blockquote {
+    margin: 0 0 18px 18px;
+    font-style: italic;
+}
+
+strong {
+    font-weight: bold;
+}
+
+em {
+    font-style: italic;
+}
+
+/* 常用样式----------------------------------------*/
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+
+.small {
+    font-size: .625em;
+}
+
+.large {
+    font-size: 1em;
+}
+
+.soft {
+    color: #D3D3D3;
+}
+
+.hide {
+    display: none;
+}
+
+p.last {
+    margin-bottom: 0px;
+}
+
+#container {
+   border:6px solid #313131;
+  border-bottom: transparent;
+}
+
+header {
+    width:100%;
+    height: 82px;
+    background:#313131;
+}
+nav{
+    height: 40px;
+    width: auto;
+    background:#434243;
+}
+#content {
+    width: 988px;
+    margin:0 auto;
+    overflow: hidden;
+}
+
+#links {
+    width: 1003px;
+    float: left;
+    font-size: 12px;
+    margin-top: 10px;
+    border-top: #aaa solid 1px;
+    border-bottom: #aaa solid 1px;
+    padding: 5px;
+}
+
+footer {
+    width:100%;
+    height: 120px;
+    font-size: 12px;
+    text-align: center;
+}
